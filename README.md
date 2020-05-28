@@ -16,14 +16,14 @@ $ cd backend
 $ composer install
 ```
 
-3. Generate the app key
-```
-$ php artisan key:generate
-```
-
-4. Copy `.env.example` to `.env` and edit the file according to your environment
+3. Copy `.env.example` to `.env` and edit the file according to your environment
 ```
 $ cp .env.example .env
+```
+
+4. Generate the app key
+```
+$ php artisan key:generate
 ```
 
 5. Run migrations to set up tables into databse and fill them up with initials datas (seed)

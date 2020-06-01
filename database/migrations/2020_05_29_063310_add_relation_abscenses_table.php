@@ -24,8 +24,8 @@ class AddRelationAbscensesTable extends Migration
             $table->softDeletes();
 
             $table->foreign('student_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');
-            $table->foreign('sequence_id')->references('id')->on('sequences')->onDelete('cascade');
+            //$table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');
+            //$table->foreign('sequence_id')->references('id')->on('sequences')->onDelete('cascade');
         });
     }
 

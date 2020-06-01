@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Chore;
+use App\Models\Punishment\Chore;
 use Faker\Generator as Faker;
 
 $factory->define(Chore::class, function (Faker $faker) {

@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Sanction;
+use App\Models\Punishment\Sanction;
 use Faker\Generator as Faker;
 
 $factory->define(Sanction::class, function (Faker $faker) {

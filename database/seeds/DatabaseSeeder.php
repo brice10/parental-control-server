@@ -28,6 +28,13 @@ class DatabaseSeeder extends Seeder
         // module setting
         $this->call([]);
 
+        // module punishment
+        $this->call([
+            ChoreSeeder::class,
+            InfractionSeeder::class,
+            SanctionSeeder::class
+        ]);
+
         // module place
         $this->call([]);
 
